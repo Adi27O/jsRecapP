@@ -23,9 +23,9 @@ console.log(ans);
 // is it anagram?
 
 function sortStr(str) {
-    let array =str.split("");
-    array= array.sort();
-    let sortedString = array.join("");
+    let array =str.split("").sort().join("");
+    // array= array.sort();
+    // let sortedString = array.join("");
     return sortedString;
 }
 
