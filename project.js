@@ -26,7 +26,7 @@ function sortStr(str) {
     let array =str.split("").sort().join("");
     // array= array.sort();
     // let sortedString = array.join("");
-    return sortedString;
+    return array;
 }
 
 function isAnagram(str1, str2) {
