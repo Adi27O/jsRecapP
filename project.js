@@ -40,3 +40,13 @@ function isAnagram(str1, str2) {
 
 let answ = isAnagram("rat", "Taar");
 console.log(answ);
+
+// to check whether a given year is a leap year
+let year = 1900
+if(year % 4 === 0 && year % 100 !=0 ){
+    console.log("This year " + year + " is a leap year");
+
+}else{
+    console.log("This year " + year + " is not a leap year");
+}
+
